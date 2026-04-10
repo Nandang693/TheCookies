@@ -21,7 +21,7 @@ const Navbar = () => {
         TheCookies
       </a>
 
-      <ul className="flex md:gap-5 gap-3 md:text-lg text-md md:mr-4">
+      <ul className="flex md:gap-5 gap-3 md:text-lg text-xs md:mr-4">
         <li className="relative group">
           <a href="#home" className="transition-all duration-300 group-hover:text-sky-950">
             Home
