@@ -16,12 +16,12 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav id="navbar1" className={`fixed top-0 w-full transition-all duration-300 flex justify-between h-auto items-center px-5 py-5 shadow-lg z-100 ${isScrolled ? 'bg-primary/80 backdrop-blur' : 'bg-primary'}`}>
+    <nav id="navbar1" className={`fixed top-0 w-full transition-all duration-300 flex justify-center md:justify-between h-auto items-center px-5 py-5 shadow-lg z-100 ${isScrolled ? 'bg-primary/80 backdrop-blur' : 'bg-primary'}`}>
       <a href="#" className="text-3xl font-semibold hover:text-bg">
         TheCookies
       </a>
 
-      <ul className="flex md:gap-5 gap-3 md:text-lg text-xs md:mr-4">
+      <ul className="hidden md:flex md:gap-5 gap-3 md:text-lg text-xs md:mr-4 mx-auto">
         <li className="relative group">
           <a href="#home" className="transition-all duration-300 group-hover:text-sky-950">
             Home
